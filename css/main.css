@@ -1,0 +1,30 @@
+.box{
+
+}
+.item:nth-child(1){
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: tomato;
+    top: 250px;
+    left: 100px;
+    z-index: 1;
+}
+.item:nth-child(2){
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: blue;
+    top: 310px;
+    left: 175px;
+    z-index: 2;
+}
+.item:nth-child(3){
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: green;
+    top: 375px;
+    left: 220px;
+    z-index: 1;
+}
